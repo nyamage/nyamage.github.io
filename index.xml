@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nyamage.io</title>
+    <link>https://nyamage.github.io/</link>
+    <description>Recent content on nyamage.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-JP</language>
+    <lastBuildDate>Tue, 04 Jul 2017 22:48:26 +0900</lastBuildDate>
+    
+	<atom:link href="https://nyamage.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Good To Great</title>
+      <link>https://nyamage.github.io/post/good-to-great/</link>
+      <pubDate>Tue, 04 Jul 2017 22:48:26 +0900</pubDate>
+      
+      <guid>https://nyamage.github.io/post/good-to-great/</guid>
+      <description>I read Good to Great in January 2016. An awesome read sharing detailed analysis on how good companies became great.</description>
+    </item>
+    
+  </channel>
+</rss>
