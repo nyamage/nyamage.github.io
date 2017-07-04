@@ -6,10 +6,20 @@
     <description>Recent content on nyamage.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Tue, 04 Jul 2017 22:48:26 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 04 Jul 2017 23:32:48 +0900</lastBuildDate>
     
 	<atom:link href="https://nyamage.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Blog_start</title>
+      <link>https://nyamage.github.io/post/2017/07/04/blog_start/</link>
+      <pubDate>Tue, 04 Jul 2017 23:32:48 +0900</pubDate>
+      
+      <guid>https://nyamage.github.io/post/2017/07/04/blog_start/</guid>
+      <description> 概要 github pages触ってみたかったので、hugoを使って作ってみた。
+今後使うコマンド コンテンツ作成 $hugo new post/&amp;lt;new_content&amp;gt;.md  サイト生成 $hugo  ローカルで確認 $hugo server --buildDrafts  その他  Hugo - Configuration Hugo - Source Organization  参考にしたサイト  Hugo - Quick Start Github Pages hugo-xmin  </description>
+    </item>
     
     <item>
       <title>Good To Great</title>
