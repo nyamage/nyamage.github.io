@@ -6,10 +6,20 @@
     <description>Recent content on nyamage.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Tue, 04 Jul 2017 23:32:48 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 06 Jul 2017 00:00:04 +0900</lastBuildDate>
     
 	<atom:link href="https://nyamage.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Add_tag</title>
+      <link>https://nyamage.github.io/post/2017/07/06/add_tag/</link>
+      <pubDate>Thu, 06 Jul 2017 00:00:04 +0900</pubDate>
+      
+      <guid>https://nyamage.github.io/post/2017/07/06/add_tag/</guid>
+      <description>ここらへんを参考にtag機能を追加.
+http://gohugo.io/taxonomies/overview/ http://qiita.com/spiegel-im-spiegel/items/4c5859f7cac877068742</description>
+    </item>
     
     <item>
       <title>Blog_start</title>

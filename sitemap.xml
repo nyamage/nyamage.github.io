@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://nyamage.github.io/post/2017/07/06/add_tag/</loc>
+    <lastmod>2017-07-06T00:00:04+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://nyamage.github.io/post/2017/07/04/blog_start/</loc>
     <lastmod>2017-07-04T23:32:48+09:00</lastmod>
   </url>
@@ -13,24 +18,26 @@
   </url>
   
   <url>
-    <loc>https://nyamage.github.io/categories/</loc>
+    <loc>https://nyamage.github.io/tags/hugo/</loc>
+    <lastmod>2017-07-06T00:00:04+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://nyamage.github.io/post/</loc>
-    <lastmod>2017-07-04T23:32:48+09:00</lastmod>
+    <lastmod>2017-07-06T00:00:04+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://nyamage.github.io/tags/</loc>
+    <lastmod>2017-07-06T00:00:04+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://nyamage.github.io/</loc>
-    <lastmod>2017-07-04T23:32:48+09:00</lastmod>
+    <lastmod>2017-07-06T00:00:04+09:00</lastmod>
     <priority>0</priority>
   </url>
   

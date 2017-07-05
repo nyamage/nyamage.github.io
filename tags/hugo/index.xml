@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on nyamage.io</title>
-    <link>https://nyamage.github.io/post/</link>
-    <description>Recent content in Posts on nyamage.io</description>
+    <title>Hugo on nyamage.io</title>
+    <link>https://nyamage.github.io/tags/hugo/</link>
+    <description>Recent content in Hugo on nyamage.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
     <lastBuildDate>Thu, 06 Jul 2017 00:00:04 +0900</lastBuildDate>
     
-	<atom:link href="https://nyamage.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://nyamage.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -29,15 +29,6 @@ http://gohugo.io/taxonomies/overview/ http://qiita.com/spiegel-im-spiegel/items/
       <guid>https://nyamage.github.io/post/2017/07/04/blog_start/</guid>
       <description> 概要 github pages触ってみたかったので、hugoを使って作ってみた。
 今後使うコマンド コンテンツ作成 $hugo new post/&amp;lt;new_content&amp;gt;.md  サイト生成 $hugo  ローカルで確認 $hugo server --buildDrafts  その他  Hugo - Configuration Hugo - Source Organization  参考にしたサイト  Hugo - Quick Start Github Pages hugo-xmin  </description>
-    </item>
-    
-    <item>
-      <title>Good To Great</title>
-      <link>https://nyamage.github.io/post/2017/07/04/good-to-great/</link>
-      <pubDate>Tue, 04 Jul 2017 22:48:26 +0900</pubDate>
-      
-      <guid>https://nyamage.github.io/post/2017/07/04/good-to-great/</guid>
-      <description>I read Good to Great in January 2016. An awesome read sharing detailed analysis on how good companies became great.</description>
     </item>
     
   </channel>
