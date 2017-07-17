@@ -6,10 +6,20 @@
     <description>Recent content in Posts on nyamage.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Thu, 06 Jul 2017 00:00:04 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 17 Jul 2017 21:17:07 +0900</lastBuildDate>
     
 	<atom:link href="https://nyamage.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Snippets_20170717</title>
+      <link>https://nyamage.github.io/post/2017/07/17/snippets_20170717/</link>
+      <pubDate>Mon, 17 Jul 2017 21:17:07 +0900</pubDate>
+      
+      <guid>https://nyamage.github.io/post/2017/07/17/snippets_20170717/</guid>
+      <description>今週やった事  トランザクション分離レベルについて勉強 [1] ECMAScript6をさらっと勉強 [2]  来週までにやること  トランザクション分離レベルについてまとめる [1] ECMAScript6を使って適当なアプリを作る [2] Hugoで新しい記事書いたら自動的にツイートする方法調べる [5]  いつかやること  Aboutちゃんと書く [6]  自分プロジェクト  キッチリとSQLを理解する 最近のJS事情に追いつく 最近のDocker事情に追いつく 機械学習・DeepLearning入門する 勉強の持続可能な方法の調査・改善 その他  雑記 Rebuildで聞いてずっと気になってた週報活動を開始
+一緒にやる人いないので、とりあえずBlogで始めてみる。</description>
+    </item>
     
     <item>
       <title>Add_tag</title>
