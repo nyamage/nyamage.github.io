@@ -6,10 +6,19 @@
     <description>Recent content in Posts on nyamage.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Sun, 23 Jul 2017 23:42:33 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 23 Jul 2017 23:51:52 +0900</lastBuildDate>
     
 	<atom:link href="https://nyamage.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Snippets_20170723</title>
+      <link>https://nyamage.github.io/post/2017/07/23/snippets_20170723/</link>
+      <pubDate>Sun, 23 Jul 2017 23:51:52 +0900</pubDate>
+      
+      <guid>https://nyamage.github.io/post/2017/07/23/snippets_20170723/</guid>
+      <description>今週やった事  トランザクション分離レベル(SQL-92)について勉強しまとめた [1] Hugoで新しい記事書いたら自動的にツイートする方法(mythings)調べ、mythingsを使って連携させてみた [5]  来週までにやること  ECMAScript6を使って適当なアプリを作る [2] A Critique of ANSI SQL Isolation Levelsを読んでまとめる  いつかやること  Aboutちゃんと書く [6]  自分プロジェクト  キッチリとSQLを理解する 最近のJS事情に追いつく 最近のDocker事情に追いつく 機械学習・DeepLearning入門する 勉強の持続可能な方法の調査・改善 その他  雑記 週報書くと自分が何勉強してたか(したかったか)簡単に思い出せて便利</description>
+    </item>
     
     <item>
       <title>Sql_92_isolation_level</title>
