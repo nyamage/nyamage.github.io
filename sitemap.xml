@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://nyamage.github.io/post/2017/07/23/sql_92_isolation_level/</loc>
+    <lastmod>2017-07-23T23:42:33+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://nyamage.github.io/post/2017/07/17/snippets_20170717/</loc>
     <lastmod>2017-07-17T21:17:07+09:00</lastmod>
   </url>
@@ -30,13 +35,19 @@
   
   <url>
     <loc>https://nyamage.github.io/post/</loc>
-    <lastmod>2017-07-17T21:17:07+09:00</lastmod>
+    <lastmod>2017-07-23T23:42:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://nyamage.github.io/tags/snippets/</loc>
     <lastmod>2017-07-17T21:17:07+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nyamage.github.io/tags/sql/</loc>
+    <lastmod>2017-07-23T23:42:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -48,7 +59,7 @@
   
   <url>
     <loc>https://nyamage.github.io/</loc>
-    <lastmod>2017-07-17T21:17:07+09:00</lastmod>
+    <lastmod>2017-07-23T23:42:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   

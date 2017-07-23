@@ -6,10 +6,23 @@
     <description>Recent content in Posts on nyamage.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Mon, 17 Jul 2017 21:17:07 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 23 Jul 2017 23:42:33 +0900</lastBuildDate>
     
 	<atom:link href="https://nyamage.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Sql_92_isolation_level</title>
+      <link>https://nyamage.github.io/post/2017/07/23/sql_92_isolation_level/</link>
+      <pubDate>Sun, 23 Jul 2017 23:42:33 +0900</pubDate>
+      
+      <guid>https://nyamage.github.io/post/2017/07/23/sql_92_isolation_level/</guid>
+      <description>トランザクション分離レベル SQL 92版 トランザクション分離レベルとは?  複数のトランザクションで同じデータにアクセスした際のトランザクション間の影響度合い 分離レベル毎に発生する不整合の種類が異なる 発生する不整合に応じてトランザクション分離レベルが定義される 分離レベルが高いほど発生する不整合の種類が減りるが、スケーラビリティが落ちる 基本的な不整合の種類についてはANSI SQL 92にて定義されている  トランザクション分離レベルを定義する問題 トランザクション分離レベルはレベル毎に発生する不整合の種類が異なる。 以下で発生する不整合について簡単に記載する。
+Dirty Read あるトランザクション(T1)がcommit or rollbackする前のデータを別のトランザクション(T2)が読んでしまう問題
+Non-repeatable or Fuzzy Read あるトランザクション(T1)がデータXを読み込んだ後、別のトランザクション(T2)がデータXを書き換えcommitし、 T1のトランザクションが変更された後のデータXを読み込んでしまう問題
+Phantom あるトランザクション(T1)が特定条件を満たすデータの集合(S1)を読み込んだ後に、 別のトランザクション(T2)がS1を満たすデータを作成しcommitする。 T1のトランザクションが再度S1のデータ集合を読み込むと、最初の読み込みとは異なるデータ集合を得てしまうこと
+トランザクション分離レベル  トランザクションの並列実行時に発生する可能性がある問題に応じてトランザクション分離レベルが定義される     レベル Dirty Read Non-repeatable or Fuzzy Read Phantom     READ UNCOMMITTED x x x   READ COMMITTED o x x   REPEATABLE READ o o x   SERIALIZABLE o o o    o: 発生しない x: 発生する</description>
+    </item>
     
     <item>
       <title>Snippets_20170717</title>

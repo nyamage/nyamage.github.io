@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ja-JP">
+  <head>
+    <meta charset="utf-8">
+    <title>Sql_92_isolation_level | nyamage.io</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Home</a></li>
+      
+      <li><a href="/about/">About</a></li>
+      
+      <li><a href="/tags/">Tags</a></li>
+      
+      <li><a href="/index.xml">Subscribe</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Sql_92_isolation_level</span></h1>
+
+<h2 class="date">2017/07/23</h2>
+</div>
+
+<main>
+
+
+<h1 id="トランザクション分離レベル-sql-92版">トランザクション分離レベル SQL 92版</h1>
+
+<h2 id="トランザクション分離レベルとは">トランザクション分離レベルとは?</h2>
+
+<ul>
+<li>複数のトランザクションで同じデータにアクセスした際のトランザクション間の影響度合い</li>
+<li>分離レベル毎に発生する不整合の種類が異なる</li>
+<li>発生する不整合に応じてトランザクション分離レベルが定義される</li>
+<li>分離レベルが高いほど発生する不整合の種類が減りるが、スケーラビリティが落ちる</li>
+<li>基本的な不整合の種類についてはANSI SQL 92にて定義されている</li>
+</ul>
+
+<h2 id="トランザクション分離レベルを定義する問題">トランザクション分離レベルを定義する問題</h2>
+
+<p>トランザクション分離レベルはレベル毎に発生する不整合の種類が異なる。
+以下で発生する不整合について簡単に記載する。</p>
+
+<h3 id="dirty-read">Dirty Read</h3>
+
+<p>あるトランザクション(T1)がcommit or rollbackする前のデータを別のトランザクション(T2)が読んでしまう問題</p>
+
+<h3 id="non-repeatable-or-fuzzy-read">Non-repeatable or Fuzzy Read</h3>
+
+<p>あるトランザクション(T1)がデータXを読み込んだ後、別のトランザクション(T2)がデータXを書き換えcommitし、
+T1のトランザクションが変更された後のデータXを読み込んでしまう問題</p>
+
+<h3 id="phantom">Phantom</h3>
+
+<p>あるトランザクション(T1)が特定条件を満たすデータの集合(S1)を読み込んだ後に、
+別のトランザクション(T2)がS1を満たすデータを作成しcommitする。
+T1のトランザクションが再度S1のデータ集合を読み込むと、最初の読み込みとは異なるデータ集合を得てしまうこと</p>
+
+<h2 id="トランザクション分離レベル">トランザクション分離レベル</h2>
+
+<ul>
+<li>トランザクションの並列実行時に発生する可能性がある問題に応じてトランザクション分離レベルが定義される</li>
+</ul>
+
+<table>
+<thead>
+<tr>
+<th align="center">レベル</th>
+<th align="center">Dirty Read</th>
+<th align="center">Non-repeatable or Fuzzy Read</th>
+<th align="center">Phantom</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center">READ UNCOMMITTED</td>
+<td align="center">x</td>
+<td align="center">x</td>
+<td align="center">x</td>
+</tr>
+
+<tr>
+<td align="center">READ COMMITTED</td>
+<td align="center">o</td>
+<td align="center">x</td>
+<td align="center">x</td>
+</tr>
+
+<tr>
+<td align="center">REPEATABLE READ</td>
+<td align="center">o</td>
+<td align="center">o</td>
+<td align="center">x</td>
+</tr>
+
+<tr>
+<td align="center">SERIALIZABLE</td>
+<td align="center">o</td>
+<td align="center">o</td>
+<td align="center">o</td>
+</tr>
+</tbody>
+</table>
+
+<p>o: 発生しない
+x: 発生する</p>
+
+<h1 id="その他">その他</h1>
+
+<p>ANSI SQL 92で定義されている不整合意外や分離レベル以外もあるので、
+詳細を知りたければ下記を読むといいと思う(後でまたまとめる)。
+<a href="https://arxiv.org/pdf/cs/0701157.pdf">https://arxiv.org/pdf/cs/0701157.pdf</a></p>
+
+<h1 id="参考資料">参考資料</h1>
+
+<p><a href="https://arxiv.org/pdf/cs/0701157.pdf">A Critique of ANSI SQL Isolation Levels</a></p>
+
+<p><a href="https://blog.acolyer.org/2016/02/24/a-critique-of-ansi-sql-isolation-levels/">A Critique of ANSI SQL Isolation Levels - the morning paper</a></p>
+
+<p><a href="http://www.sqlpassion.at/archive/2014/01/21/myths-and-misconceptions-about-transaction-isolation-levels/">Myths and Misconceptions about Transaction Isolation Levels</a></p>
+
+</main>
+
+  <footer>
+  
+  
+  <hr/>
+  &copy; nyamage 2017 | <a href="https://github.com/nyamage">Github</a> | <a href="https://twitter.com/_nymg_">Twitter</a>
+  
+  </footer>
+  </body>
+</html>
+
