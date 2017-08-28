@@ -6,10 +6,19 @@
     <description>Recent content in Posts on nyamage.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Sun, 20 Aug 2017 23:14:26 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 28 Aug 2017 22:41:03 +0900</lastBuildDate>
     
 	<atom:link href="https://nyamage.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Snippets_20170828</title>
+      <link>https://nyamage.github.io/post/2017/08/28/snippets_20170828/</link>
+      <pubDate>Mon, 28 Aug 2017 22:41:03 +0900</pubDate>
+      
+      <guid>https://nyamage.github.io/post/2017/08/28/snippets_20170828/</guid>
+      <description> 今週やった事  Practical Guide to SQL Transaction Isolation読んだ node+expressでexpressのチュートリアルみながらサンプルコード書いてる expressのチュートリアルついでにgoogle chart少し使ってみた ニューラルネットワーク自作入門読んでる  来週までにやること  Nodeアプリの題材いいかげん決めたい [2] Snapshot Isolationについてちゃんと調べる [1]  いつかやること  Aboutちゃんと書く [6] ECMAScript6を使って適当なアプリを作る [2] A Critique of ANSI SQL Isolation Levelsを読んでまとめる node x expressでrest api簡単に作る方法探す[2] API Gatewayについて調べる  自分プロジェクト  キッチリとSQLを理解する 最近のJS事情に追いつく 最近のDocker事情に追いつく 機械学習・DeepLearning入門する 勉強の持続可能な方法の調査・改善 その他  </description>
+    </item>
     
     <item>
       <title>Snippets_20170820</title>
